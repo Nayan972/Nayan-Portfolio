@@ -1,8 +1,10 @@
 
 import Home from './components/Home';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import WebDev from './routes/WebDev'
 import Services from './routes/Services';
+import Social from './components/Social';
+import Navbar from './components/Navbar';
+
 
 
 
@@ -17,9 +19,13 @@ function App() {
 
      <Routes>
       <Route path="/" element={<Home/>} exact />
-      <Route path="/webDev" element={<WebDev/>} />
       <Route path="/services" element={<Services/>} />
-
+      <Route path='/contact' element={
+  <>
+    <Navbar />
+    <Social />
+  </>
+} />
      
      </Routes>
    

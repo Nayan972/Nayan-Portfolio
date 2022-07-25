@@ -4,6 +4,7 @@ import { FaBars } from "react-icons/fa";
 import "./FontGrad.css";
 import {Link} from 'react-router-dom'
 
+
 function Navbar() {
   const [nav, setNav] = useState(false);
 
@@ -26,7 +27,7 @@ function Navbar() {
     {
       id: 4,
       name: "Contact",
-      link: "",
+      link: "/contact",
     },
   ];
 
@@ -68,12 +69,12 @@ function Navbar() {
                 <ul className="flex flex-col justify-center items-center py-32 capitalize">
                   {navItems.map((item) => (
                     <li key={item.id} className=" text-xl hover:text-3xl ">
-                      <button
+                      <Link to={item.link}><button
                         
                         className="flex justify-center items-center text-white py-4 text-semibold hover:text-3xl"
                       >
                         {item.name}
-                      </button>
+                      </button></Link>
                     </li>
                   ))}
                 </ul>

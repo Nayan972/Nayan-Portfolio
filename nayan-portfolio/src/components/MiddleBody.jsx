@@ -1,6 +1,6 @@
 import React from "react";
 import "./FontGrad.css";
-import {Link} from 'react-router-dom'
+
 
 
 import { FaCode, FaDesktop,  FaMobileAlt} from "react-icons/fa"
@@ -11,9 +11,9 @@ function MiddleBody() {
       <div className="flex flex-col justify-center align-middle">
         <div className=" p-3"><p className=" font6 md:font-normal text-zinc-300 pl-20 md:pl-40">I like to work in </p></div>
         <div className=" flex pl-20 flex-col justify-center align-middle md:flex-row">
-          <div className="font1 text-slate-900  p-9  flex flex-col text-xl    grad5 rounded-lg justify-between shadow-lg shadow-pink-900 hover:opacity-90 w-52 h-52 m-2  "><FaCode />Web Development <Link to="/webDev"><button className=" text-green-900 hover:text-emerald-800 text-sm">Explore  &#x2192;</button></Link></div>
-          <div className="font1 text-slate-900  p-9  flex flex-col text-xl   grad6 rounded-lg justify-between shadow-lg shadow-yellow-900 hover:opacity-90 w-52 h-52 m-2  "><FaDesktop/> UI/UX <Link to="ui"><button className=" text-green-900 hover:text-emerald-800 text-sm">Explore  &#x2192;</button></Link></div>
-          <div className="font1 text-slate-900  p-9  flex flex-col text-xl   grad7 rounded-lg justify-between shadow-lg shadow-cyan-900 hover:opacity-90 w-52 h-52 m-2  "><FaMobileAlt /> Design <Link to="design"><button className=" text-green-900 hover:text-emerald-800 text-sm">Explore  &#x2192;</button></Link></div>
+          <div className="font1 text-slate-900  p-9  flex flex-col text-xl    grad5 rounded-lg justify-between shadow-lg shadow-pink-900 hover:opacity-90 w-52 h-52 m-2  "><FaCode />Web Development <a  href="https://www.w3schools.com/whatis/"><button className=" text-green-900 hover:text-emerald-800 text-sm">Explore  &#x2192;</button></a></div>
+          <div className="font1 text-slate-900  p-9  flex flex-col text-xl   grad6 rounded-lg justify-between shadow-lg shadow-yellow-900 hover:opacity-90 w-52 h-52 m-2  "><FaDesktop/> UI/UX <a  href="https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/"><button className=" text-green-900 hover:text-emerald-800 text-sm">Explore  &#x2192;</button></a></div>
+          <div className="font1 text-slate-900  p-9  flex flex-col text-xl   grad7 rounded-lg justify-between shadow-lg shadow-cyan-900 hover:opacity-90 w-52 h-52 m-2  "><FaMobileAlt /> Design <a  href="https://www.interaction-design.org/literature/topics/web-design"><button className=" text-green-900 hover:text-emerald-800 text-sm">Explore  &#x2192;</button></a></div>
         </div>
       </div>
       <div>
