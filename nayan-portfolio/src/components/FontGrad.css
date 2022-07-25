@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Mochiy+Pop+One&family=Pacifico&family=Permanent+Marker&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+.font1{
+    font-family: 'Mochiy Pop One', sans-serif;
+
+}
+.font2{
+
+    font-family: 'Pacifico', cursive;
+}
+.font3{
+
+    font-family: 'Permanent Marker', cursive;
+}
+.font4{
+
+    font-family: 'Satisfy', cursive;
+}
+.font5{
+    font-family: 'Lato', sans-serif;
+}
+.font6{
+    font-family: 'Homemade Apple', cursive;
+}
+
+.grad1{
+
+    background-image: linear-gradient(#FBD52D,#EF3A7B);
+}
+
+.grad2{
+    background-image:linear-gradient(#FF70AF,#5F48F5);
+}
+.grad3{
+  
+  background: -webkit-linear-gradient(rgb(211, 211, 200), rgb(249, 189, 221));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grad4{
+    
+  background: -webkit-linear-gradient(rgb(222, 101, 25), rgb(46, 235, 137));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+.extra-css{
+    font-family: 'Mochiy Pop One', sans-serif;
+
+}
+
+
+.grad5{
+    background-image: linear-gradient(#FACD68, #FC76B3);
+}
+.grad6{
+    background-image: linear-gradient(#FFCB52, #FF7B02);
+}
+.grad7{
+    background-image: linear-gradient(#1DE5E2, #B588F7);
+}
